@@ -29,5 +29,6 @@ public class CarReviewsSteps {
 		 List<List<String>> menuList =  dataTable.asLists();
 		  System.out.println("Select car home page menu link ==> "+ menuList.get(1));
 		  carHomePageObj.moveToReviewsLink();
+		  System.out.println("Final changes");
     }
 }
