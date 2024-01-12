@@ -40,7 +40,7 @@ public class SeleniumWebDriver {
 
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 		//getDriver().manage().timeouts().pageLoadTimeout(Duration.ofMillis(1000));
 		return getDriver();
 		

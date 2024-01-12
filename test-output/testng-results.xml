@@ -1,75 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-09T21:24:22 EST" name="Default suite" finished-at="2024-01-09T21:24:40 EST" duration-ms="17660">
+  <suite started-at="2024-01-12T18:01:41 EST" name="Default suite" finished-at="2024-01-12T18:01:51 EST" duration-ms="9532">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-09T21:24:22 EST" name="Default test" finished-at="2024-01-09T21:24:40 EST" duration-ms="17660">
+    <test started-at="2024-01-12T18:01:41 EST" name="Default test" finished-at="2024-01-12T18:01:51 EST" duration-ms="9532">
       <class name="parallel.ParallelRunCuke">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-09T21:24:22 EST" name="setUpClass" finished-at="2024-01-09T21:24:22 EST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-12T18:01:41 EST" name="setUpClass" finished-at="2024-01-12T18:01:42 EST" duration-ms="312" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@141e879d]]>
+                <![CDATA[org.testng.TestRunner@6ed06f69]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-09T21:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-09T21:24:37 EST" duration-ms="14316" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-12T18:01:42 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-12T18:01:51 EST" duration-ms="9041" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate search used cars feature"]]>
+                <![CDATA["Validate the Sell car feature"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["This is to verify the car search functionality"]]>
+                <![CDATA["This is to validate the Car Selling functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-09T21:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-09T21:24:28 EST" duration-ms="5765" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the Car Reviews feature"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["This is to verify the car reviews functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-09T21:24:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-09T21:24:40 EST" duration-ms="17182" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate search new car feature"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["This is to verify the car search functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-09T21:24:40 EST" name="tearDownClass" finished-at="2024-01-09T21:24:40 EST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRunCuke@6b2ea799]" started-at="2024-01-12T18:01:51 EST" name="tearDownClass" finished-at="2024-01-12T18:01:51 EST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

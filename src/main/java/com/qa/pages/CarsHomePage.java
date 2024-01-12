@@ -26,6 +26,9 @@ public class CarsHomePage {
 	@FindBy(linkText = "All reviews")
 	WebElement allReviewsSubMenuLink;
 	
+	@FindBy(linkText = "Sell my car")
+	WebElement sellMyCarSubMenuLink;
+	
 	public CarsHomePage() {
 	   // selDriver = new SeleniumWebDriver();
 		PageFactory.initElements(SeleniumWebDriver.getDriver(),this);
@@ -67,6 +70,10 @@ public class CarsHomePage {
 
     	Actions obj = new Actions(SeleniumWebDriver.getDriver());
 		obj.moveToElement(reviewsMenuLink).build().perform();
+    }
+    
+    public void clickSellMyCarLink() {
+    	sellMyCarSubMenuLink.click();
     }
 }
 

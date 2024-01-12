@@ -8,10 +8,7 @@ import com.qa.Driverfactory.SeleniumWebDriver;
 import com.qa.pages.CarSearchPage;
 import com.qa.pages.CarsHomePage;
 import com.qa.pages.SearchedCarPage;
-
-import io.cucumber.core.backend.TestCaseState;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -26,7 +23,7 @@ public class SearchCarSteps {
 		public void i_am_on_the_home_page_of_carsguide_website(String string) 
 			{ 
 			
-			System.out.println(Thread.currentThread().getId());
+			//System.out.println(Thread.currentThread().getId());
 			SeleniumWebDriver.getDriver().get(string);
 		}
 

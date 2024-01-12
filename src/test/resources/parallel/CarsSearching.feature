@@ -8,13 +8,13 @@ Feature: This is to verify the car search functionality
       | reviews    |
       | news       |
     And I click on the Search cars Link
-    And I select the make  "BMW" from Make dropdown
-    And I select the model  "1 Series" from Model dropdown
-    And I Select the location "NSW - All" from the Location dropdown
-    And I select the price "$1,000" from the Price dropdown
+    And I select the make  "Hyundai" from Make dropdown
+    And I select the model  "Tucson" from Model dropdown
+    And I Select the location "NSW - Newcastle" from the Location dropdown
+    And I select the price "$60,000" from the Price dropdown
     And I click on Find My Next Car button
-    Then the searched cars header "1 BMW 1 Series for Sale Under $1,000 in NSW" should be displayed
-    And the Page title should be "Cheap BMW 1 Series Under 1,000 for Sale NSW | CarsGuide"
+    Then the searched cars header "136 Hyundai Tucsons for Sale Under $60,000 in Newcastle, NSW" should be displayed
+    And the Page title should be "Hyundai Tucson Under 60,000 for Sale Newcastle NSW | CarsGuide"
 
   @New
   Scenario: Validate search used cars feature
@@ -24,10 +24,10 @@ Feature: This is to verify the car search functionality
       | reviews    |
       | news       |
     And I click on the Search Used cars Link
-    And I select the make  "BMW" from Make dropdown
-    And I select the model  "1 Series" from Model dropdown
-    And I Select the location "NSW - All" from the Location dropdown
-    And I select the price "$1,000" from the Price dropdown
+    And I select the make  "Hyundai" from Make dropdown
+    And I select the model  "Tucson" from Model dropdown
+    And I Select the location "NSW - Newcastle" from the Location dropdown
+    And I select the price "$60,000" from the Price dropdown
     And I click on Find My Next Car button
-    Then the searched cars header "1 Used BMW 1 Series for Sale Under $1,000 in NSW" should be displayed
-    And the Page title should be "Cheap Used BMW 1 Series Under 1,000 for Sale NSW - Second Hand BMW 1 Series Under 1,000 in NSW | CarsGuide"
+    Then the searched cars header "20 Used Hyundai Tucsons for Sale Under $60,000 in Newcastle, NSW" should be displayed
+    And the Page title should be "Used Hyundai Tucson Under 60,000 for Sale Newcastle NSW - Second Hand Hyundai Tucson Under 60,000 in Newcastle | CarsGuide"
