@@ -82,7 +82,7 @@ public class SearchCarSteps {
 		@Then("the Page title should be {string}")
 		public void the_page_title_should_be(String title) {
 			 System.out.println(SeleniumWebDriver.getDriver().getTitle());
-			  Assert.assertEquals(title, SeleniumWebDriver.getDriver().getTitle(),"Searched Used Car page Title doesnot match");
+			  Assert.assertEquals("Random", SeleniumWebDriver.getDriver().getTitle(),"Searched Used Car page Title doesnot match");
 		}
 		
 		@When("I click on the Search Used cars Link")
